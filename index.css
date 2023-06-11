@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Raleway:wght@100&display=swap');
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    font-family:"Raleway";
+}
+.container{
+    /* max-width: 1000px; */
+}
+.header{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom:10px ;
+}
+#ctnColor{
+    margin-left: auto;
+    padding-right: 20px;
+}
+#wrap{
+    height: 90vh;
+    width: 100vw;
+    border-top: 3px solid #323233;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#click--btn{
+    border-radius:20px;
+    padding: 10px;
+    background-color: skyblue;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+}
+#click--btn:hover{
+    box-shadow:  0 2px 10px rgb(0 0 0 / 80%);
+}
